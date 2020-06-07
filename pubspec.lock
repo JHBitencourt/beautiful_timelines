@@ -95,9 +95,11 @@ packages:
   example_timeline_tile:
     dependency: "direct main"
     description:
-      path: "/Users/JHBitencourt/Documents/senai/ferramentas/fontes/mobile/timeline_tile/example"
-      relative: false
-    source: path
+      path: example
+      ref: HEAD
+      resolved-ref: "00179b219ce7b356141d3371ab0f003e413d5f19"
+      url: "https://github.com/JHBitencourt/timeline_tile.git"
+    source: git
     version: "1.0.0+1"
   fake_async:
     dependency: transitive

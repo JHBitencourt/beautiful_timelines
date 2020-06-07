@@ -18,13 +18,9 @@ dependencies:
   flutter_showcase: ^0.1.0
 
   example_timeline_tile:
-    path: /Users/JHBitencourt/Documents/senai/ferramentas/fontes/mobile/timeline_tile/example
-
-  #example_timeline_tile:
-  #  git:
-  #    url: https://github.com/JHBitencourt/timeline_tile.git
-  #    path: example
-
+    git:
+      url: https://github.com/JHBitencourt/timeline_tile.git
+      path: example
 
 dev_dependencies:
   flutter_test:
