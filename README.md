@@ -1,16 +1,38 @@
 # beatiful_timelines
 
-Beautiful timelines made with Flutter and timeline_tile
+Beautiful timelines built with Flutter and [timeline_tile](https://pub.dev/packages/timeline_tile).
 
-## Getting Started
+## Current examples:
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<div style="text-align: center">
+    <table>
+        <tr>
+            <td style="text-align: center">
+                <img src="https://raw.githubusercontent.com/JHBitencourt/timeline_tile/master/screenshots/gifs/showcase_timeline.gif" width="200"/>
+      </br><b>Timeline Showcase</b>
+            </td>            
+            <td style="text-align: center">
+                <img src="https://raw.githubusercontent.com/JHBitencourt/timeline_tile/master/screenshots/gifs/football_timeline.gif" width="200"/>
+      </br><b>Football Timeline</b>
+            </td>
+            <td style="text-align: center">
+                <img src="https://raw.githubusercontent.com/JHBitencourt/timeline_tile/master/screenshots/gifs/activity_timeline.gif" width="200"/>
+      </br><b>Activity Timeline</b>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: center">
+                <img src="https://raw.githubusercontent.com/JHBitencourt/timeline_tile/master/screenshots/gifs/success_timeline.gif" width="200"/>
+      </br><b>Success Timeline</b>
+            </td>
+            <td style="text-align: center">
+                <img src="https://raw.githubusercontent.com/JHBitencourt/timeline_tile/master/screenshots/delivery_timeline.png" width="200"/>
+  </br><b>Delivery Timeline</b>
+            </td>
+            <td style="text-align: center">
+                <img src="https://raw.githubusercontent.com/JHBitencourt/timeline_tile/master/screenshots/weather_timeline.png" width="200"/>
+  </br><b>Weather Timeline</b>
+            </td>
+        </tr>
+    </table>
+</div>

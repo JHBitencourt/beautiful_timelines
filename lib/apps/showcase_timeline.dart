@@ -45,7 +45,7 @@ class ShowcaseTimeline extends StatelessWidget {
       ),
       links: [
         LinkData.github('https://github.com/JHBitencourt/timeline_tile'),
-        LinkData.pub('')
+        LinkData.pub('https://pub.dev/packages/timeline_tile')
       ],
       logoLink: LinkData(
         icon: Image.asset(

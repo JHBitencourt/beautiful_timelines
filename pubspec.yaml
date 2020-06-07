@@ -12,14 +12,19 @@ dependencies:
   flutter:
     sdk: flutter
 
+  timeline_tile: ^0.1.0
   google_fonts: ^1.1.0
   weather_icons: ^2.0.1
   flutter_showcase: ^0.1.0
 
-  timeline_tile:
-    path: /Users/JHBitencourt/Documents/senai/ferramentas/fontes/mobile/timeline_tile
   example_timeline_tile:
     path: /Users/JHBitencourt/Documents/senai/ferramentas/fontes/mobile/timeline_tile/example
+
+  #example_timeline_tile:
+  #  git:
+  #    url: https://github.com/JHBitencourt/timeline_tile.git
+  #    path: example
+
 
 dev_dependencies:
   flutter_test:

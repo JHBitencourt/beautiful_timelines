@@ -381,9 +381,9 @@ packages:
   timeline_tile:
     dependency: "direct main"
     description:
-      path: "/Users/JHBitencourt/Documents/senai/ferramentas/fontes/mobile/timeline_tile"
-      relative: false
-    source: path
+      name: timeline_tile
+      url: "https://pub.dartlang.org"
+    source: hosted
     version: "0.1.0"
   typed_data:
     dependency: transitive
