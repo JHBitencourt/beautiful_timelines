@@ -106,75 +106,75 @@ class _TimelineDelivery extends StatelessWidget {
         children: <Widget>[
           TimelineTile(
             alignment: TimelineAlign.manual,
-            lineX: 0.1,
+            lineXY: 0.1,
             isFirst: true,
             indicatorStyle: const IndicatorStyle(
               width: 20,
               color: Color(0xFF27AA69),
               padding: EdgeInsets.all(6),
             ),
-            rightChild: const _RightChild(
+            endChild: const _RightChild(
               asset: 'assets/delivery/order_placed.png',
               title: 'Order Placed',
               message: 'We have received your order.',
             ),
-            topLineStyle: const LineStyle(
+            beforeLineStyle: const LineStyle(
               color: Color(0xFF27AA69),
             ),
           ),
           TimelineTile(
             alignment: TimelineAlign.manual,
-            lineX: 0.1,
+            lineXY: 0.1,
             indicatorStyle: const IndicatorStyle(
               width: 20,
               color: Color(0xFF27AA69),
               padding: EdgeInsets.all(6),
             ),
-            rightChild: const _RightChild(
+            endChild: const _RightChild(
               asset: 'assets/delivery/order_confirmed.png',
               title: 'Order Confirmed',
               message: 'Your order has been confirmed.',
             ),
-            topLineStyle: const LineStyle(
+            beforeLineStyle: const LineStyle(
               color: Color(0xFF27AA69),
             ),
           ),
           TimelineTile(
             alignment: TimelineAlign.manual,
-            lineX: 0.1,
+            lineXY: 0.1,
             indicatorStyle: const IndicatorStyle(
               width: 20,
               color: Color(0xFF2B619C),
               padding: EdgeInsets.all(6),
             ),
-            rightChild: const _RightChild(
+            endChild: const _RightChild(
               asset: 'assets/delivery/order_processed.png',
               title: 'Order Processed',
               message: 'We are preparing your order.',
             ),
-            topLineStyle: const LineStyle(
+            beforeLineStyle: const LineStyle(
               color: Color(0xFF27AA69),
             ),
-            bottomLineStyle: const LineStyle(
+            afterLineStyle: const LineStyle(
               color: Color(0xFFDADADA),
             ),
           ),
           TimelineTile(
             alignment: TimelineAlign.manual,
-            lineX: 0.1,
+            lineXY: 0.1,
             isLast: true,
             indicatorStyle: const IndicatorStyle(
               width: 20,
               color: Color(0xFFDADADA),
               padding: EdgeInsets.all(6),
             ),
-            rightChild: const _RightChild(
+            endChild: const _RightChild(
               disabled: true,
               asset: 'assets/delivery/ready_to_pickup.png',
               title: 'Ready to Pickup',
               message: 'Your order is ready for pickup.',
             ),
-            topLineStyle: const LineStyle(
+            beforeLineStyle: const LineStyle(
               color: Color(0xFFDADADA),
             ),
           ),

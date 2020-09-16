@@ -233,14 +233,14 @@ class _TimelineActivity extends StatelessWidget {
           alignment: TimelineAlign.manual,
           isFirst: index == 0,
           isLast: index == steps.length - 1,
-          lineX: 0.25,
+          lineXY: 0.25,
           indicatorStyle: indicator,
-          leftChild: leftChild,
-          rightChild: righChild,
+          startChild: leftChild,
+          endChild: righChild,
           hasIndicator: step.isCheckpoint,
-          topLineStyle: LineStyle(
+          beforeLineStyle: LineStyle(
             color: step.color,
-            width: 8,
+            thickness: 8,
           ),
         );
       },

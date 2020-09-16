@@ -97,15 +97,15 @@ class _WeatherTimeline extends StatelessWidget {
               children: <Widget>[
                 TimelineTile(
                   alignment: TimelineAlign.manual,
-                  lineX: 0.3,
+                  lineXY: 0.3,
                   isFirst: true,
                   indicatorStyle: IndicatorStyle(
                     width: 70,
                     height: 70,
                     indicator: _Sun(),
                   ),
-                  topLineStyle: LineStyle(color: Colors.white.withOpacity(0.7)),
-                  rightChild: _ContainerHeader(),
+                  beforeLineStyle: LineStyle(color: Colors.white.withOpacity(0.7)),
+                  endChild: _ContainerHeader(),
                 ),
                 _buildTimelineTile(
                   indicator: const _IconIndicator(
@@ -190,17 +190,17 @@ class _WeatherTimeline extends StatelessWidget {
   }) {
     return TimelineTile(
       alignment: TimelineAlign.manual,
-      lineX: 0.3,
-      topLineStyle: LineStyle(color: Colors.white.withOpacity(0.7)),
+      lineXY: 0.3,
+      beforeLineStyle: LineStyle(color: Colors.white.withOpacity(0.7)),
       indicatorStyle: IndicatorStyle(
-        indicatorY: 0.3,
+        indicatorXY: 0.3,
         drawGap: true,
         width: 30,
         height: 30,
         indicator: indicator,
       ),
       isLast: isLast,
-      leftChild: Center(
+      startChild: Center(
         child: Container(
           alignment: const Alignment(0.0, -0.50),
           child: Text(
@@ -213,7 +213,7 @@ class _WeatherTimeline extends StatelessWidget {
           ),
         ),
       ),
-      rightChild: Padding(
+      endChild: Padding(
         padding:
             const EdgeInsets.only(left: 16, right: 10, top: 10, bottom: 10),
         child: Column(

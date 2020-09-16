@@ -6,6 +6,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'apps/activity_timeline.dart';
 import 'apps/delivery_timeline.dart';
 import 'apps/football_timeline.dart';
+import 'apps/horizontal_timelines.dart';
 import 'apps/showcase_timeline.dart';
 import 'apps/success_timeline.dart';
 import 'apps/weather_timeline.dart';
@@ -29,6 +30,7 @@ class _ExamplesState extends State<Examples> {
     _apps = [
       ShowcaseTimeline(),
       ShowcaseFootballTimeline(),
+      ShowcaseHorizontalTimeline(),
       ShowcaseWeatherTimeline(),
       ShowcaseActivityTimeline(),
       ShowcaseDeliveryTimeline(),

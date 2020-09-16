@@ -215,20 +215,20 @@ class _TimelineSteps extends StatelessWidget {
 
           return TimelineTile(
             alignment: TimelineAlign.manual,
-            rightChild: isLeftAlign ? child : null,
-            leftChild: isLeftAlign ? null : child,
-            lineX: isLeftAlign ? 0.1 : 0.9,
+            endChild: isLeftAlign ? child : null,
+            startChild: isLeftAlign ? null : child,
+            lineXY: isLeftAlign ? 0.1 : 0.9,
             isFirst: isFirst,
             isLast: isLast,
             indicatorStyle: IndicatorStyle(
               width: 40,
               height: 40,
-              indicatorY: indicatorY,
+              indicatorXY: indicatorY,
               indicator: _TimelineStepIndicator(step: '${step.step}'),
             ),
-            topLineStyle: const LineStyle(
+            beforeLineStyle: const LineStyle(
               color: Color(0xFFCB8421),
-              width: 5,
+              thickness: 5,
             ),
           );
         },

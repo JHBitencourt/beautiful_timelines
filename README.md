@@ -27,11 +27,17 @@ Beautiful timelines built with Flutter and [timeline_tile](https://pub.dev/packa
             </td>
             <td style="text-align: center">
                 <img src="https://raw.githubusercontent.com/JHBitencourt/timeline_tile/master/screenshots/delivery_timeline.png" width="200"/>
-  </br><b>Delivery Timeline</b>
+                </br><b>Delivery Timeline</b>
             </td>
             <td style="text-align: center">
                 <img src="https://raw.githubusercontent.com/JHBitencourt/timeline_tile/master/screenshots/weather_timeline.png" width="200"/>
-  </br><b>Weather Timeline</b>
+                </br><b>Weather Timeline</b>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: center">
+                <img src="https://raw.githubusercontent.com/JHBitencourt/timeline_tile/master/screenshots/gifs/horizontal_timeline.gif" width="200"/>
+                </br><b>Horizontal Timelines</b>
             </td>
         </tr>
     </table>
